@@ -1,0 +1,53 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css";
+
+
+.text-primary {
+  color:#606060 !important
+}
+
+.text-secondary {
+	font-size: medium;
+	font-weight: 400;
+	font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif, 'Apple Color Emoji';
+  color: #808080 !important
+}
+
+.text-link{
+  color: #606060 !important
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#header-bg {
+  background-color: gray;
+  background-image: linear-gradient(to right, #F5F5F5, #808080);
+  opacity: 0.95;
+}
+
+#about{
+  background-color: #E0E0E0;
+}
+
+@media (max-width:1000px) {
+	#mobile {
+		visibility: visible;
+  }
+  #desktop {
+    visibility: hidden;
+  }
+}
+
+@media (min-width:1000px) {
+	#mobile {
+		visibility: hidden;
+  }
+  #desktop {
+    visibility: visible;
+  }
+}
+
