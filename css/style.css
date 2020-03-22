@@ -23,6 +23,17 @@
   width: 50%;
 }
 
+.info-container {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section{
+  height: 100vh;
+}
+
 #header-bg {
   background-color: gray;
   background-image: linear-gradient(to right, #F5F5F5, #808080);
